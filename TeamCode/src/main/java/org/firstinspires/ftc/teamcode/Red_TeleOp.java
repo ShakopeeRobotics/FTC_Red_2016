@@ -32,10 +32,8 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-import com.qualcomm.robotcore.util.Range;
 
 /**
  * This file provides basic Telop driving for a Pushbot robot.
@@ -53,10 +51,10 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 @TeleOp(name="FTC RED PLEASE WORK", group="NOTHING")
-public class PushbotTeleopTank_Iterative extends OpMode{
+public class Red_TeleOp extends OpMode{
 
     /* Declare OpMode members. */
-    HardwareGarbage robot = new HardwareGarbage(); // use the class created to define a Pushbot's hardware
+    HardwarePushbot robot = new HardwarePushbot(); // use the class created to define a Pushbot's hardware
 
 
     /*
